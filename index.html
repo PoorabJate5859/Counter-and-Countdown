@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown & Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <section class="countdown-section">
+            <h1>Countdown</h1>
+            <div>
+                <input type="number" class="input-hours" placeholder="HH" min="0" max="23">
+                <input type="number" class="input-minutes" placeholder="MM" min="0" max="59">
+                <input type="number" class="input-seconds" placeholder="SS" min="0" max="59">
+            </div>
+            <div class="countdown-display">
+                <span class="countdown-hours">00</span>:<span class="countdown-minutes">00</span>:<span class="countdown-seconds">00</span>
+            </div>
+            <button class="btn-start-countdown">Start Countdown</button>
+            <button class="btn-reset-countdown">Reset Countdown</button>
+        </section>
+
+        <hr>
+
+        <section class="counter-section">
+            <h1>Counter</h1>
+            <div class="counter-display">
+                <span class="counter-value">0</span>
+            </div>
+            <button class="btn-increase">Increase</button>
+            <button class="btn-decrease">Decrease</button>
+            <button class="btn-reset-counter">Reset Counter</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
